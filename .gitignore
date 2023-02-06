@@ -128,7 +128,7 @@ fabric.properties
 .mtj.tmp/
 
 # Package Files #
-*.jar
+# *.jar # Github Action Build 시 gradle-wrapper.jar파일 필요
 *.war
 *.nar
 *.ear
